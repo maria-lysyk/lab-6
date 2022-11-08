@@ -1,0 +1,59 @@
+body {
+    background-image: url("mountain.jpg");
+    font-family: 'Lucida Sans';
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #9ec2eb;
+    text-shadow: 2px 2px 2px #171429;
+    margin-top: 5px;
+
+}
+form {
+    width: 300px;
+    padding: 15px 40px 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 10% auto;
+}
+label {
+    display: block;
+    margin-bottom: 5px
+}
+input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: #a9bae64a;
+}
+.box {
+    padding-bottom: 10px;
+}
+
+input[type=text]{
+        outline: none;
+}
+
+input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: #7da3c2;
+    border-color: #498fbd;
+    box-shadow: 0 3px 0 #5a6196;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background: #688094;
+    border-color: #445a7e;
+}
